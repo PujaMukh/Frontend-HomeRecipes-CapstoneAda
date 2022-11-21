@@ -17,6 +17,14 @@ body {
 .footer-class {
     color: gray;
     text-decoration: underline;
+    bottom:0%;
+    position: fixed;
+}
+.footer-class-relative {
+    color: gray;
+    text-decoration: underline;
+    bottom:0%;
+    position: relative;
 }
 #name-id {
     color: darkblue;
