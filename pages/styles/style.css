@@ -12,6 +12,7 @@ body {
 .header {
     color: darkcyan;
     text-decoration: underline;
+    font-style: italic;
 }
 .footer-class {
     color: gray;
@@ -25,12 +26,12 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.797);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
