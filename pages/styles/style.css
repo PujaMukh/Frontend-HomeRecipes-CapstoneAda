@@ -2,9 +2,24 @@ body {
     font-family: sans-serif;
     background-color: lightblue;
 }
-.portfolio-title {
-    color: midnight;
+#portfolio-title {
+    color: darkblue;
+    font-style: italic;
     font-size: 2.5rem;
     text-decoration: underline;
     text-align: center;
-  }
+}
+.header {
+    color: olivedrab;
+    text-decoration: underline;
+}
+.footer-class {
+    color: gray;
+    text-decoration: underline;
+}
+#name-id {
+    color: darkblue;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
