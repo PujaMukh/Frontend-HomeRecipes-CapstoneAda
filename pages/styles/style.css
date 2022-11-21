@@ -2,6 +2,9 @@ body {
     font-family: sans-serif;
     background-color: lightblue;
 }
+#portfolio-body {
+    background-color: lavender;
+}
 #portfolio-title {
     color: darkblue;
     font-style: italic;
