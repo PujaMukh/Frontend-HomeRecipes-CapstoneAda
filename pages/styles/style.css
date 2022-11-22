@@ -24,13 +24,13 @@ body {
     bottom:0%;
     position: fixed;
 }
-.footer-class-relative {
+/* .footer-class-relative {
     color: gray;
     font-style: italic;
     text-decoration: underline;
     bottom:0%;
     position: relative;
-}
+} */
 #name-id {
     color: darkblue;
     font-style: italic;
