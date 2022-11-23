@@ -18,7 +18,7 @@ body {
     font-style: italic;
 }
 .footer-class {
-    color: gray;
+    color: darkcyan;
     text-decoration: underline;
     font-style: italic;
     bottom:0%;
@@ -29,7 +29,6 @@ body {
     font-style: italic;
     font-size: 2.5rem;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -51,6 +50,6 @@ body {
 .flex-container > div {
     background-color: #f1f1f1;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
 }
