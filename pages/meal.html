@@ -12,8 +12,8 @@
     <nav>
       <div class="grid-container">
         <div class="grid-item"><a href="home.html">Home</a></div>
+        <div class="grid-item"><a href="starter.html">Starter</a></div>
         <div class="grid-item"><a href="meal.html">Meal</a></div>
-        <div class="grid-item"><a href="about.html">About</a></div>
         <div class="grid-item"><a href="dessert.html">Dessert</a></div>
       </div>
     </nav>
@@ -35,7 +35,35 @@
   </div>
   <section>
     <footer class="footer-class">
-      <script src="frontend-recipe/index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+            <script id="document-template" type="text/x-handlebars-template">
+                <!-- <div class=""row>
+                    <!-- <table width = "100%"> -->
+                        <!-- <div class="column" onclick="openTab('b1');" style="background:green;"> --> 
+                            
+                    {{#each this}}
+                    
+                        <!-- <table width = "100%"> -->
+                            <div class="row">
+                            <div class="column" onclick="openTab('b1');" style="background-color:{{striped @index}}" >
+                            <!-- <tr>
+                                <td> -->
+                                    {{name}} 
+                                    <!-- <img src="../assets/images/Puja_personal_pic.jpeg" alt="Puja's personal pic" style="float:center" width = "100" height="100"> -->
+                                </div>
+                                <!-- </td>
+                                <td> -->
+                                    <!-- {{cuisine}} -->
+                                <!-- </td>
+                            </tr> -->
+                            </div>
+                        
+                    {{/each}}
+                <!-- </table> -->
+                
+            </script>
+            <script src="../index.js"></script>
+      <!-- <script src="frontend-recipe/index.js"></script> -->
 
       <h3>Contact:</h3>
       <nav>

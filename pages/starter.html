@@ -12,8 +12,8 @@
     <nav>
       <div class="grid-container">
         <div class="grid-item"><a href="home.html">Home</a></div>
+        <div class="grid-item"><a href="starter.html">Starter</a></div>
         <div class="grid-item"><a href="meal.html">Meal</a></div>
-        <div class="grid-item"><a href="about.html">About</a></div>
         <div class="grid-item"><a href="dessert.html">Dessert</a></div>
       </div>
     </nav>
@@ -37,8 +37,27 @@
   </div>
   <section>
     <footer class="footer-class">
+      <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+            <script id="document-template" type="text/x-handlebars-template">
+                <div>
+                    <table width = "100%">
+                    {{#each this}}
+                            <tr>
+                                <td>
+                                    {{name}}
+                                </td>
+                                <td>
+                                    {{cuisine}}
+                                </td>
+                            </tr>
+                        
+                    {{/each}}
+                </table>
+                </div>
+            </script>
+            <script src="../index.js"></script>
       <!-- window.location = <Path / URL></Path> -->
-      <script src="frontend-recipe/index.js"></script>
+      <!-- <script src="frontend-recipe/index.js"></script> -->
       <h3>Contact:</h3>
       <nav>
         <div class="flex-container">

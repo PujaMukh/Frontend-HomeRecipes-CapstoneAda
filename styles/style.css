@@ -3,6 +3,9 @@
     font-family: cursive;
 
 }
+#about-id {
+    font-family: cursive;
+}
 #paragraph {
     font-family: cursive;
     font-size: xx-large;
@@ -32,7 +35,7 @@ body {
     text-decoration: underline;
     font-style: italic;
     bottom:0%;
-    position: fixed;
+    /* position: fixed; */
 }
 #name-id {
     color: darkblue;
@@ -63,5 +66,17 @@ body {
     padding: 5px;
     font-size: 10px;
 }
+/* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 50px;
+    text-align: left;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
 ul li { margin-bottom: 10px; }
 ol li { margin-bottom: 10px; }
+
+
