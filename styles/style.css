@@ -35,7 +35,7 @@ body {
     text-decoration: underline;
     font-style: italic;
     bottom:0%;
-    /* position: fixed; */
+    position: fixed;
 }
 #name-id {
     color: darkblue;
@@ -75,6 +75,17 @@ body {
     font-size: 25px;
     cursor: pointer;
     color: white;
+  }
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 ul li { margin-bottom: 10px; }
 ol li { margin-bottom: 10px; }

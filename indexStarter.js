@@ -1,7 +1,5 @@
-// compile the template
-
-const fetchRecipesDessert = () => {
-  fetch("https://backend-recipe-capstone.herokuapp.com/api/v1/recipe/DESSERT")
+const fetchRecipesStarters = () => {
+  fetch("https://backend-recipe-capstone.herokuapp.com/api/v1/recipe/SNACKS")
     .then((response) =>
       response.json().then((data) => {
         // console.log("hi");
@@ -19,7 +17,8 @@ const fetchRecipesDessert = () => {
     )
     .catch((err) => console.log(err));
 };
-document.addEventListener("DOMContentLoaded", fetchRecipesDessert);
+
+document.addEventListener("DOMContentLoaded", fetchRecipesStarters);
 
 function openTab(tabName) {
   var i, x;

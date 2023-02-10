@@ -19,6 +19,7 @@
     </nav>
     <article>
       <h1 id="portfolio-title">Meal:</h1>
+      <div id ="recipeList"></div>
     </article>
   </header>
   <div>
@@ -45,7 +46,7 @@
                     
                         <!-- <table width = "100%"> -->
                             <div class="row">
-                            <div class="column" onclick="openTab('b1');" style="background-color:{{striped @index}}" >
+                            <div class="column" onclick="openTab('{{id}}');" style="background-color:{{striped @index}}" >
                             <!-- <tr>
                                 <td> -->
                                     {{name}} 
@@ -57,12 +58,18 @@
                                 <!-- </td>
                             </tr> -->
                             </div>
+                          </div>
+                          <div id="{{id}}" class="containerTab" style="display:none;background:yellow">
+                              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                              <h2>{{name}}</h2>
+                              <p>{{directions}}</p>
+                          </div>
                         
                     {{/each}}
                 <!-- </table> -->
                 
             </script>
-            <script src="../index.js"></script>
+            <script src="../indexMeal.js"></script>
       <!-- <script src="frontend-recipe/index.js"></script> -->
 
       <h3>Contact:</h3>
