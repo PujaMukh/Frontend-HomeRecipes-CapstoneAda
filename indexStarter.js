@@ -2,17 +2,15 @@ const fetchRecipesStarters = () => {
   fetch("https://backend-recipe-capstone.herokuapp.com/api/v1/recipe/SNACKS")
     .then((response) =>
       response.json().then((data) => {
-        // console.log("hi");
         console.log(data);
         let recipeList = { recipes: data };
         var source = document.getElementById("document-template").innerHTML;
         var template = Handlebars.compile(source);
         Handlebars.registerHelper("striped", function (index) {
-          return index % 2 === 0 ? "Green" : "Blue";
+          return index % 2 === 0 ? "lightBlue" : "lightBlue";
         });
         var html = template(data);
         document.getElementById("recipeList").innerHTML = html;
-        //console.log(data[0].name);
       })
     )
     .catch((err) => console.log(err));

@@ -1,10 +1,33 @@
 #top {
-    color: orange;
+    color: orangered;
     font-family: cursive;
+    font-weight: bolder;
 
 }
 #about-id {
+    font-family:cursive;
+    font-size: large;
+    text-align: right;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+
+}
+#top-elements {
     font-family: cursive;
+    color: brown;
+}
+#recipeList {
+    font-family: cursive;
+}
+#about {
+    font-family: cursive;
+    font-size: large;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #paragraph {
     font-family: cursive;
@@ -16,11 +39,11 @@ body {
     background-color: lightgray;
 }
 #portfolio-body {
-    background-color: lavender;
+    background-color: lightgray;
 }
 #portfolio-title {
-    color: darkblue;
-    font-style: italic;
+    color: cadetblue;
+    font-family: cursive;
     font-size: 2.5rem;
     text-decoration: underline;
     text-align: center;
@@ -28,14 +51,7 @@ body {
 .header {
     color: darkcyan;
     /* text-decoration: underline; */
-    font-style: italic;
-}
-.footer-class {
-    color: darkcyan;
-    text-decoration: underline;
-    font-style: italic;
-    bottom:0%;
-    position: fixed;
+    font-family: cursive;
 }
 #name-id {
     color: darkblue;
@@ -46,14 +62,23 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     /* background-color: #2196F3; */
-    padding: 10px;
+    padding: 5px;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.797);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 5px;
     font-size: 20px;
     text-align: center;
+    font-family: cursive;
+}
+.footer-class {
+    color: darkcyan;
+    text-decoration: underline;
+    font-style: italic;
+    bottom:0%;
+    /* position: absolute; */
+    position: fixed;
 }
 .flex-container {
     display: flex;
@@ -61,24 +86,24 @@ body {
 }
 
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color:whitesmoke;
     margin: 5px;
     padding: 5px;
-    font-size: 10px;
+    font-size: 5px;
 }
-/* The grid: Three equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 100%;
-    padding: 50px;
+    padding: 10px;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
-    color: white;
+    color: black;
   }
   .closebtn {
     float: right;
-    color: white;
+    color: black;
     font-size: 35px;
     cursor: pointer;
   }
